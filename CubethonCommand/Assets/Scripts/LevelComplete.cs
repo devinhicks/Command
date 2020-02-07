@@ -7,6 +7,8 @@ public class LevelComplete : MonoBehaviour
     public Canvas ReplayUI;
     public Rigidbody player;
 
+    public GameManager gameManager;
+
     public void Start()
     {
         player = player.GetComponent<Rigidbody>();
@@ -17,6 +19,8 @@ public class LevelComplete : MonoBehaviour
         {
             //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            gameManager.activateReplay();
+
         }
         else
         {
