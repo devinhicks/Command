@@ -30,6 +30,6 @@ public class Menu : MonoBehaviour
 
     public void Production()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 }

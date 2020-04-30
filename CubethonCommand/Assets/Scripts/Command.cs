@@ -23,7 +23,7 @@ class MoveLeft : Command
     {
         timestamp = Time.timeSinceLevelLoad;
         _player.AddForce(-_force * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
-        Debug.Log("Move Left");
+        //Debug.Log("Move Left");
     }
 }
 
@@ -41,6 +41,6 @@ class MoveRight : Command
     {
         timestamp = Time.timeSinceLevelLoad;
         _player.AddForce(_force * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
-        Debug.Log("Move Right");
+        //Debug.Log("Move Right");
     }
 }

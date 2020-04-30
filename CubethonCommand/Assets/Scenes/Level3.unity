@@ -434,6 +434,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdac583524ce0404b9891c4f4dc5827e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  askRestart: 0
+  ReplayUI: {fileID: 0}
+  player: {fileID: 0}
+  gameManager: {fileID: 0}
 --- !u!95 &103299800
 Animator:
   serializedVersion: 3
@@ -1339,6 +1343,8 @@ MonoBehaviour:
   completeLevelUI: {fileID: 0}
   gameOverUI: {fileID: 0}
   collected: 0
+  playerActivatedReplay: 0
+  ReplayUI: {fileID: 0}
 --- !u!95 &840659323
 Animator:
   serializedVersion: 3
@@ -1502,7 +1508,7 @@ Transform:
   m_GameObject: {fileID: 843711301}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 7, z: 450}
-  m_LocalScale: {x: 15, y: 15, z: 1}
+  m_LocalScale: {x: 37.125, y: 20.268, z: 1.575}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
@@ -1755,6 +1761,8 @@ MonoBehaviour:
   completeLevelUI: {fileID: 103299798}
   gameOverUI: {fileID: 840659321}
   collected: 0
+  playerActivatedReplay: 0
+  ReplayUI: {fileID: 0}
 --- !u!1 &967634398
 GameObject:
   m_ObjectHideFlags: 0

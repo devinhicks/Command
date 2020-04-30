@@ -1613,7 +1613,7 @@ Transform:
   m_GameObject: {fileID: 843711301}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 7, z: 450}
-  m_LocalScale: {x: 15, y: 15, z: 1}
+  m_LocalScale: {x: 23.826, y: 15, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
@@ -2916,6 +2916,7 @@ MonoBehaviour:
   askRestart: 1
   ReplayUI: {fileID: 1278375990}
   player: {fileID: 1066332705}
+  gameManager: {fileID: 0}
 --- !u!95 &1721537674
 Animator:
   serializedVersion: 3
